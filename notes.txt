@@ -1,0 +1,8 @@
+< read
+> write
+>> append
+
+read -p 	prompt
+-e filename	exits
+
+grep -i "string" filename
