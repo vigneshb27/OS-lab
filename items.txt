@@ -1,0 +1,8 @@
+apple
+ball
+cat
+dog
+eagle
+fruit
+goat
+honey

@@ -6,3 +6,18 @@ read -p 	prompt
 -e filename	exits
 
 grep -i "string" filename
+
+
+To print first line of a file : head -n 1 filename
+To print first two lines of a file : head -n 2 filename
+To print last two lines of a filename : tail -n 2 filename
+To count the files in the current directory : ls | wc -l
+To find the particular file in current directory :  find . -name "*.sh" | wc -l
+To replace a string in the given file : sed 's/old/new/' filename
+To delete the fifth line of a file : sed '5d' filename.txt
+To delete the fifth to last line of a file :sed '5,$d' filename.txt
+
+echo "Welcome To The Geek Stuff" | sed 's/\(\b[A-Z]\)/\(\1\)/g' 
+Output : (W)elcome (T)o (T)he (G)eek (S)tuff
+
+To display current date d=`date +%m-%d-%Y`  or `date`
